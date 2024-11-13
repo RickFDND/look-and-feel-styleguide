@@ -1,0 +1,27 @@
+/* Schrijf hier de verschillende stijlen, die gedeeld gaan
+   worden door jullie projecten */
+
+
+/* Kleuren */
+body{
+    background-color: #000000;
+}
+
+/* Typografie */
+h1, h2{
+    font-family: Calvino Grande Trial;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 52px;
+    color: white;
+}
+
+p{
+    font-family: Figtree;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: white;
+}
+
+/* Formulier elementen */
