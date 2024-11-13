@@ -28,6 +28,30 @@ body{
     --font-weight-text: 200;
 }
 
+figure{
+    .background-color{
+        background-color: var(--background-color);
+    }
+    .primary-color{
+        background-color: var(--primary-color);
+    }
+    .secondary-color{
+        background-color: var(--secondary-color);
+    }
+    .btn-rouwtaak1{
+        background-color: var(--btn-rouwtaak1);
+    }
+    .btn-rouwtaak2{
+        background-color: var(--btn-rouwtaak2);
+    }
+    .btn-rouwtaak3{
+        background-color: var(--btn-rouwtaak3);
+    }
+    .btn-rouwtaak4{
+        background-color: var(--btn-rouwtaak4);
+    }
+}
+
 h1 {
     font-family: var(--font-family-header);
     font-weight: var(--font-weight-header);
