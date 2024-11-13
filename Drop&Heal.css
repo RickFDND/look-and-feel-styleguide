@@ -29,11 +29,14 @@ body{
 }
 
 figure{
+    color: var(--primary-color);
     .background-color{
         background-color: var(--background-color);
+        border: 1px solid var(--primary-color);
     }
     .primary-color{
         background-color: var(--primary-color);
+        color: var(--background-color);
     }
     .secondary-color{
         background-color: var(--secondary-color);
@@ -90,7 +93,7 @@ ol {
     color: var(--primary-color);
 }
 
-//* Formulier elementen */
+/* Formulier elementen */
 
 /*login*/ 
 
