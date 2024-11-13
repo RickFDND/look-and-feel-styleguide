@@ -8,11 +8,19 @@ body{
 }
 
 /* Typografie */
-h1, h2{
+h1{
     font-family: Calvino Grande Trial;
     font-weight: 800;
     font-size: 60px;
     line-height: 52px;
+    color: white;
+}
+
+h2{
+    font-family: Calvino Grande Trial;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 50.16px;
     color: white;
 }
 
