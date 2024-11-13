@@ -25,3 +25,17 @@ p{
 }
 
 /* Formulier elementen */
+/* Start button */
+a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 37.5px;
+    border: solid white 1px;
+    width: 107px;
+    height: 43px;
+    padding: 12px;
+    gap: 10px;
+}
+
+/* Arrow left & right */
