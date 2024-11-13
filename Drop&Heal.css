@@ -1,7 +1,6 @@
 /* Schrijf hier de verschillende stijlen, die gedeeld gaan
    worden door jullie projecten */
 
-
 /* Kleuren */
 body{
     --background-color: #000000;
@@ -14,18 +13,19 @@ body{
 
 
 /* Typografie */
+
     --font-size-text: 16px;
     --font-size-header-s: 24px;
     --font-size-header-m: 32px;
     --font-size-header-l: 48px;
 
     --font-family-header: "Calvino Grande Trial";
-    --font-family-text: "Figtree";
+    --font-family-text: "Figtree", sans-serif;
 
     --font-family: var(--font-family-header);
 
     --font-weight-header: 800;
-    --font-weight-text: 700;
+    --font-weight-text: 200;
 }
 
 h1 {
@@ -37,7 +37,7 @@ h1 {
 
 h2 {
     font-family: var(--font-family-header);
-    font-weight: var(--font-weight-header);
+    font-weight: var(--font-weight-t);
     font-size: var(--font-size-header-m);
     color: var(--primary-color);
 }
@@ -49,23 +49,62 @@ h3 {
     color: var(--primary-color);
 }
 
-p{
+p {
     font-family: var(--font-family-text);
     font-weight: var(--font-weight-text);
     font-size: var(--font-size-text);
     color: var(--primary-color);
 }
 
-/* Formulier elementen */
+/*vragenlijst*/
+
+li {
+    color: var(--primary-color);
+}
+
+ol { 
+    color: var(--primary-color);
+}
+
+//* Formulier elementen */
+
+/*login*/ 
+
+/*checkbox*/
+
+
 /* Start button */
 a{
     text-decoration: none;
+    background-color: var(--background-color);
     color: var(--primary-color);
-    background-color: black;
-    border: var(solid --primary-color 1px);
-    width: 107px;
-    height: 50px;
-    border-radius: 37.5px;
+    border-radius: 30.5px;
+    border: 1px solid var(--primary-color); 
+    padding: 15px 20px;
+    font-size: 16px;
+    cursor: pointer;
 }
 
-/* Arrow left & right */
+a:hover {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+}
+/* andere buttons*/
+button {
+    text-decoration: none;
+    background-color: var(--background-color);
+    color: var(--primary-color);
+    border-radius: 30.5px;
+    border: 1px solid var(--primary-color); 
+    padding: 15px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Hover effect */
+button:hover {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+}
+
+

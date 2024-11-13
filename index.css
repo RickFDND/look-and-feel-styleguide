@@ -7,7 +7,7 @@
   body {
     max-width: 40em;
     margin: auto;
-    background: #fff;
+    background: #000000;
   }
   nav:not([class]),
   h1:not([class]),
@@ -40,7 +40,7 @@
       place-items: center;
       border-radius: 50%;
       aspect-ratio: 1;
-      background: #ccc;
+      background: #ffffff;
     }
   }
 }
