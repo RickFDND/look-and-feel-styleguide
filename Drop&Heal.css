@@ -4,46 +4,66 @@
 
 /* Kleuren */
 body{
-    background-color: #000000;
-}
+    --background-color: #000000;
+    --primary-color: #FFFF;
+    --secondary-color: #A6A6A6;
+    --btn-rouwtaak1: #64AAC7;
+    --btn-rouwtaak2: #984A4A;
+    --btn-rouwtaak3: #6E9158;
+    --btn-rouwtaak4: #7C6097;
+
 
 /* Typografie */
-h1{
-    font-family: Calvino Grande Trial;
-    font-weight: 800;
-    font-size: 60px;
-    line-height: 52px;
-    color: white;
+    --font-size-text: 16px;
+    --font-size-header-s: 24px;
+    --font-size-header-m: 32px;
+    --font-size-header-l: 48px;
+
+    --font-family-header: "Calvino Grande Trial";
+    --font-family-text: "Figtree";
+
+    --font-family: var(--font-family-header);
+
+    --font-weight-header: 800;
+    --font-weight-text: 700;
 }
 
-h2{
-    font-family: Calvino Grande Trial;
-    font-weight: 500;
-    font-size: 44px;
-    line-height: 50.16px;
-    color: white;
+h1 {
+    font-family: var(--font-family-header);
+    font-weight: var(--font-weight-header);
+    font-size: var(--font-size-header-l);
+    color: var(--primary-color);
+}
+
+h2 {
+    font-family: var(--font-family-header);
+    font-weight: var(--font-weight-header);
+    font-size: var(--font-size-header-m);
+    color: var(--primary-color);
+}
+
+h3 {
+    font-family: var(--font-family-header);
+    font-weight: var(--font-weight-header);
+    font-size: var(--font-size-header-s);
+    color: var(--primary-color);
 }
 
 p{
-    font-family: Figtree;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 22px;
-    color: white;
+    font-family: var(--font-family-text);
+    font-weight: var(--font-weight-text);
+    font-size: var(--font-size-text);
+    color: var(--primary-color);
 }
 
 /* Formulier elementen */
 /* Start button */
 a{
     text-decoration: none;
-    color: white;
+    color: var(--primary-color);
     background-color: black;
-    border-radius: 37.5px;
-    border: solid white 1px;
-    width: 107px;
-    height: 43px;
-    padding: 12px;
-    gap: 10px;
+    border-radius: 50%;
+    border: var(--primary-color);
 }
 
 /* Arrow left & right */
