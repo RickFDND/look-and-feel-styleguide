@@ -6,10 +6,10 @@ body{
     --background-color: #000000;
     --primary-color: #FFFF;
     --secondary-color: #A6A6A6;
-    --btn-rouwtaak1: #64AAC7;
-    --btn-rouwtaak2: #984A4A;
-    --btn-rouwtaak3: #6E9158;
-    --btn-rouwtaak4: #7C6097;
+    --btn-color-rouwtaak1: #64AAC7;
+    --btn-color-rouwtaak2: #984A4A;
+    --btn-color-rouwtaak3: #6E9158;
+    --btn-color-rouwtaak4: #7C6097;
 
 
 /* Typografie */
@@ -42,16 +42,16 @@ figure{
         background-color: var(--secondary-color);
     }
     .btn-rouwtaak1{
-        background-color: var(--btn-rouwtaak1);
+        background-color: var(--btn-color-rouwtaak1);
     }
     .btn-rouwtaak2{
-        background-color: var(--btn-rouwtaak2);
+        background-color: var(--btn-color-rouwtaak2);
     }
     .btn-rouwtaak3{
-        background-color: var(--btn-rouwtaak3);
+        background-color: var(--btn-color-rouwtaak3);
     }
     .btn-rouwtaak4{
-        background-color: var(--btn-rouwtaak4);
+        background-color: var(--btn--color-rouwtaak4);
     }
 }
 
@@ -100,8 +100,8 @@ ol {
 /*checkbox*/
 
 
-/* Start button */
-a{
+/* buttons */
+a, button {
     text-decoration: none;
     background-color: var(--background-color);
     color: var(--primary-color);
@@ -110,28 +110,9 @@ a{
     padding: 15px 20px;
     font-size: 16px;
     cursor: pointer;
-}
 
-a:hover {
-    background-color: var(--primary-color);
-    color: var(--background-color);
+    &:hover {
+        background-color: var(--primary-color);
+        color: var(--background-color);
+    }
 }
-/* andere buttons*/
-button {
-    text-decoration: none;
-    background-color: var(--background-color);
-    color: var(--primary-color);
-    border-radius: 30.5px;
-    border: 1px solid var(--primary-color); 
-    padding: 15px 20px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-/* Hover effect */
-button:hover {
-    background-color: var(--primary-color);
-    color: var(--background-color);
-}
-
-
