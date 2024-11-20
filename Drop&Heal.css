@@ -31,32 +31,6 @@ body{
 
 figure {
     color: var(--primary-color);
-<<<<<<< HEAD
-    .background-color{
-        background-color: var(--background-color);
-        border: 1px solid var(--primary-color);
-    }
-    .primary-color{
-        background-color: var(--primary-color);
-        color: var(--background-color);
-    }
-    .secondary-color{
-        background-color: var(--secondary-color);
-    }
-    .btn-rouwtaak1{
-        background-color: var(--btn-color-rouwtaak1);
-    }
-    .btn-rouwtaak2{
-        background-color: var(--btn-color-rouwtaak2);
-    }
-    .btn-rouwtaak3{
-        background-color: var(--btn-color-rouwtaak3);
-    }
-    .btn-rouwtaak4{
-        background-color: var(--btn--color-rouwtaak4);
-    }
-=======
->>>>>>> 5059ac0fd7b0f5750907d546dffded6270c15359
 }
 
 figure .background-color {
@@ -74,19 +48,19 @@ figure .secondary-color {
 }
 
 figure .btn-rouwtaak1 {
-    background-color: var(--btn-rouwtaak1);
+    background-color: var(--btn-color-rouwtaak1);
 }
 
 figure .btn-rouwtaak2 {
-    background-color: var(--btn-rouwtaak2);
+    background-color: var(--btn-color-rouwtaak2);
 }
 
 figure .btn-rouwtaak3 {
-    background-color: var(--btn-rouwtaak3);
+    background-color: var(--btn-color-rouwtaak3);
 }
 
 figure .btn-rouwtaak4 {
-    background-color: var(--btn-rouwtaak4);
+    background-color: var(--btn-color-rouwtaak4);
 }
 
 
@@ -151,25 +125,3 @@ a, button {
         color: var(--background-color);
     }
 }
-<<<<<<< HEAD
-=======
-/* andere buttons*/
-button {
-    text-decoration: none;
-    background-color: var(--background-color);
-    color: var(--primary-color);
-    border-radius: 30.5px;
-    border: 1px solid var(--primary-color); 
-    padding: 15px 20px;
-    font-size: var(--font-size-text);
-    cursor: pointer;
-}
-
-/* Hover effect */
-button:hover {
-    background-color: var(--primary-color);
-    color: var(--background-color);
-}
-
-
->>>>>>> 5059ac0fd7b0f5750907d546dffded6270c15359
