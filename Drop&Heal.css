@@ -14,7 +14,7 @@ body{
 /* Typografie */
 
     --font-size-text: 16px;
-    --font-size-header-s: 24px;
+    --font-size-header-s: 20px;
     --font-size-header-m: 32px;
     --font-size-header-l: 48px;
 
@@ -125,7 +125,42 @@ ol {
 
 /* Formulier elementen */
 
-/*login*/ 
+.account-form {
+    font-family: var(--font-family-text);
+    font-weight: var(--font-weight-text);
+    font-size: var(--font-size-header-s);
+    color: var(--primary-color);
+}
+
+input[type='text'], input[type='password'], label{
+    display: block;
+    background-color: var(--background-color);
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+    font-size: medium;
+    margin-top: 1rem;
+
+}
+  
+  input[type='submit'], button{
+    margin-top: 1rem;
+    text-decoration: none;
+    font-family: var(--font-family-text);
+    background-color: var(--background-color);
+    color: var(--primary-color);
+    border-radius: 30.5px;
+    border: 1px solid var(--primary-color); 
+    padding: 8px 20px;
+    font-size: 0,5em;
+    cursor: pointer;
+  }
+  
+input[type='submit']:hover, button:hover {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+}
+        
+
 
 /*checkbox*/
 

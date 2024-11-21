@@ -99,11 +99,22 @@
       <h2>Formulier elementen</h2>
       <p>Bij het onderdeel formulier elementen worden input, radio, checkbox en buttons gedemonstreerd.</p>
 
-      <form class="">
-        <label class="login">
-          Text: 
-          <input type="name" class="">
-        </label>
+      <h2> Inloggen of registreren</h2>
+      <form class="account-form">
+        <div>
+          <label for="naam">Naam</label>
+          <input type="text" id="naam" name="naam" />
+        </div>
+        
+        <div>
+          <label for="pass">Wachtwoord</label>
+          <input type="password" id="wachtwoord" name="wachtwoord" minlength="8" required />
+        </div>
+        
+        <input type="submit" value="Inloggen" />
+      
+
+      <br></br>
       
         <fieldset class="">
           <legend class="">Checkbox</legend>
@@ -124,6 +135,7 @@
           </label>
         </fieldset>
 
+        <br></br>
         
         <button type="button" class="">Starten</button>
         <button type="button" class="">Overslaan</button>
