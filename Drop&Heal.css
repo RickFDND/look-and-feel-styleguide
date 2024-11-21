@@ -139,7 +139,6 @@ input[type='submit']:hover, button:hover {
 }
         
 
-
 /*checkbox*/
 
 
@@ -162,6 +161,6 @@ a, button {
     &:focus {
         background-color: #64AAC7;
     }
-}
+
 
 
