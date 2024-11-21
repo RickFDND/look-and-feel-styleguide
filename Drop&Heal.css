@@ -27,7 +27,6 @@ body{
     --font-weight-text: 200;
 }
 
-
 figure {
     color: var(--primary-color);
     .background-color{
@@ -70,19 +69,19 @@ figure .secondary-color {
 }
 
 figure .btn-rouwtaak1 {
-    background-color: var(--btn-rouwtaak1);
+    background-color: var(--btn-color-rouwtaak1);
 }
 
 figure .btn-rouwtaak2 {
-    background-color: var(--btn-rouwtaak2);
+    background-color: var(--btn-color-rouwtaak2);
 }
 
 figure .btn-rouwtaak3 {
-    background-color: var(--btn-rouwtaak3);
+    background-color: var(--btn-color-rouwtaak3);
 }
 
 figure .btn-rouwtaak4 {
-    background-color: var(--btn-rouwtaak4);
+    background-color: var(--btn-color-rouwtaak4);
 }
 
 
@@ -147,3 +146,9 @@ a, button {
         color: var(--background-color);
     }
 }
+    &:focus {
+        background-color: #64AAC7;
+    }
+}
+
+
