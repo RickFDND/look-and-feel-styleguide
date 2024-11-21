@@ -11,6 +11,7 @@ body{
     --btn-color-rouwtaak3: #6E9158;
     --btn-color-rouwtaak4: #7C6097;
 
+
 /* Typografie */
 
     --font-size-text: 16px;
@@ -29,29 +30,6 @@ body{
 
 figure {
     color: var(--primary-color);
-    .background-color{
-        background-color: var(--background-color);
-        border: 1px solid var(--primary-color);
-    }
-    .primary-color{
-        background-color: var(--primary-color);
-        color: var(--background-color);
-    }
-    .secondary-color{
-        background-color: var(--secondary-color);
-    }
-    .btn-rouwtaak1{
-        background-color: var(--btn-color-rouwtaak1);
-    }
-    .btn-rouwtaak2{
-        background-color: var(--btn-color-rouwtaak2);
-    }
-    .btn-rouwtaak3{
-        background-color: var(--btn-color-rouwtaak3);
-    }
-    .btn-rouwtaak4{
-        background-color: var(--btn-color-rouwtaak4);
-    }
 }
 
 figure .background-color {
