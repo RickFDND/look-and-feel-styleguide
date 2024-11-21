@@ -28,7 +28,6 @@ body{
     --font-weight-text: 200;
 }
 
-
 figure {
     color: var(--primary-color);
 }
@@ -124,4 +123,9 @@ a, button {
         background-color: var(--primary-color);
         color: var(--background-color);
     }
+    &:focus {
+        background-color: #64AAC7;
+    }
 }
+
+
