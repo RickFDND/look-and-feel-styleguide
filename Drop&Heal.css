@@ -11,7 +11,6 @@ body{
     --btn-color-rouwtaak3: #6E9158;
     --btn-color-rouwtaak4: #7C6097;
 
-
 /* Typografie */
 
     --font-size-text: 16px;
@@ -31,7 +30,6 @@ body{
 
 figure {
     color: var(--primary-color);
-<<<<<<< HEAD
     .background-color{
         background-color: var(--background-color);
         border: 1px solid var(--primary-color);
@@ -53,10 +51,8 @@ figure {
         background-color: var(--btn-color-rouwtaak3);
     }
     .btn-rouwtaak4{
-        background-color: var(--btn--color-rouwtaak4);
+        background-color: var(--btn-color-rouwtaak4);
     }
-=======
->>>>>>> 5059ac0fd7b0f5750907d546dffded6270c15359
 }
 
 figure .background-color {
@@ -151,25 +147,3 @@ a, button {
         color: var(--background-color);
     }
 }
-<<<<<<< HEAD
-=======
-/* andere buttons*/
-button {
-    text-decoration: none;
-    background-color: var(--background-color);
-    color: var(--primary-color);
-    border-radius: 30.5px;
-    border: 1px solid var(--primary-color); 
-    padding: 15px 20px;
-    font-size: var(--font-size-text);
-    cursor: pointer;
-}
-
-/* Hover effect */
-button:hover {
-    background-color: var(--primary-color);
-    color: var(--background-color);
-}
-
-
->>>>>>> 5059ac0fd7b0f5750907d546dffded6270c15359
