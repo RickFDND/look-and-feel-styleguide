@@ -11,10 +11,10 @@
 
     <header>
       <h1> Drop & Heal - Styleguide</h1>
-      <p>Dit is de styleguide voor het project [Projectnaam]. Hierin zijn een aantal huisstijl onderdelen gedefinieerd.</p>
+      <p>Dit is de styleguide voor het project [drop & heal]. Hierin zijn een aantal huisstijl onderdelen gedefinieerd.</p>
       <p>Gebruik de volgende gedeelde stylesheet binnen je eigen project:
         <!-- Pas deze aan zodra deze repository live staat op GitHub Pages -->
-        <code>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://....github.io/.../Drop&Heal.css&quot;&gt;</code>
+        <code>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://rickfdnd.github.io/look-and-feel-styleguide/Drop%26Heal.css&quot;&gt;</code>
       </p>
     </header>
 
@@ -32,31 +32,31 @@
       <p>Bij het onderdeel kleuren staat het kleurgebruik.</p>
 
       <figure>
-        <code class="">#000000</code>
+        <code class="background-color">#000000</code>
         <figcaption>Achtergrondkleur</figcaption>
       </figure>
       <figure>
-        <code class="">#FFFF</code>
+        <code class="primary-color">#FFFF</code>
         <figcaption>Primaire kleur teksten</figcaption>
       </figure>
       <figure>
-        <code class="">#A6A6A6</code>
+        <code class="secondary-color">#A6A6A6</code>
         <figcaption>Secondaire kleur</figcaption>
       </figure>
       <figure>
-        <code class="color-example">#64AAC7</code>
+        <code class="btn-rouwtaak1">#64AAC7</code>
         <figcaption>Button rouwtaak 1</figcaption>
       </figure>
       <figure>
-        <code class="">#984A4A</code>
+        <code class="btn-rouwtaak2">#984A4A</code>
         <figcaption>Button rouwtaak 2</figcaption>
       </figure>
       <figure>
-        <code class="">#6E9158</code>
+        <code class="btn-rouwtaak3">#6E9158</code>
         <figcaption>Button rouwtaak 3</figcaption>
       </figure>
       <figure>
-        <code class="">#7C6097</code>
+        <code class="btn-rouwtaak4">#7C6097</code>
         <figcaption>Button rouwtaak 4</figcaption>
       </figure>
       
@@ -71,8 +71,6 @@
       <h1 class="">Kop 1</h1>
       <h2 class="">Kop 2</h2>
       <h3 class="">Kop 3</h3>
-      <h4 class="">Kop 4</h4>
-      <h5 class="">Kop 5</h5>
 
       <p class="">Simpele alinea's</p>
       <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -88,88 +86,36 @@
         <li>En nog een item</li>
       </ul>
 
-      <ol class="">
+      <ol class="vragenlijst">
         <li>Geordende lijsten met items</li>
         <li>Met nog meer items</li>
         <li>En nog een item</li>
       </ol>
 
-      <table class="">
-        <thead>
-          <tr>
-            <th>Tabelkop</th>
-            <th>Tabelkop</th>
-            <th>Tabelkop</th>
-            <th>Tabelkop</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Tabeldata</td>
-            <td>Tabeldata</td>
-            <td>Tabeldata</td>
-            <td>Tabeldata</td>
-          </tr>
-          <tr>
-            <td>Tabeldata</td>
-            <td>Tabeldata</td>
-            <td>Tabeldata</td>
-            <td>Tabeldata</td>
-          </tr>
-          <tr>
-            <td>Tabeldata</td>
-            <td>Tabeldata</td>
-            <td>Tabeldata</td>
-            <td>Tabeldata</td>
-          </tr>
-          <tr>
-            <td>Tabeldata</td>
-            <td>Tabeldata</td>
-            <td>Tabeldata</td>
-            <td>Tabeldata</td>
-          </tr>
-          <tr>
-            <td>Tabeldata</td>
-            <td>Tabeldata</td>
-            <td>Tabeldata</td>
-            <td>Tabeldata</td>
-          </tr>
-        </tbody>
-      </table>
-
     </section>
-
 
     <section id="formulieren">
 
       <h2>Formulier elementen</h2>
       <p>Bij het onderdeel formulier elementen worden input, radio, checkbox en buttons gedemonstreerd.</p>
 
-      <form class="">
-        <label class="">
-          Text: 
-          <input type="text" class="">
-        </label>
-
-        <fieldset class="">
-          <legend class="">Radio options:</legend>
-
-          <label class="">
-            <input type="radio" name="radio-options" value="option 1" checked class="">
-            Option 1
-          </label>
-
-          <label class="">
-            <input type="radio" name="radio-options" value="option 2" class="">
-            Option 2
-          </label>
-
-          <label class="">
-            <input type="radio" name="radio-options" value="option 3" class="">
-            Option 3
-          </label>
-        </fieldset>
+      <h2> Inloggen of registreren</h2>
+      <form class="account-form">
+        <div>
+          <label for="naam">Naam</label>
+          <input type="text" id="naam" name="naam" />
+        </div>
         
+        <div>
+          <label for="pass">Wachtwoord</label>
+          <input type="password" id="wachtwoord" name="wachtwoord" minlength="8" required />
+        </div>
+        
+        <input type="submit" value="Inloggen" />
+      
+
+      <br></br>
+      
         <fieldset class="">
           <legend class="">Checkbox</legend>
 
@@ -189,25 +135,13 @@
           </label>
         </fieldset>
 
-        <label class="">
-          Search: 
-          <input type="search" class="">
-        </label>
+        <br></br>
         
-        <label class="">
-          Tel: 
-          <input type="tel" class="">
-        </label>
-
-        <label class="">
-          Range: 
-          <input type="range" class="">
-        </label>
-
-        <input type="submit" value="Submit button" class="">
-        
-        <button type="button" class="">Button</button>
-      </form>
+        <button type="button" class="">Starten</button>
+        <button type="button" class="">Overslaan</button>
+        <button type="button" class="">Terug</button>
+        <button type="button" class=""> → </button>
+      
     
     </section>
 
