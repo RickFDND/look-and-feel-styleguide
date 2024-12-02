@@ -30,8 +30,8 @@ body{
 
 /* buttons */
 
-    --button-border-radius: 30.5px;
-    --button-padding: 15px 20px;
+    --start-button-border-radius: 30.5px;
+    --start-button-padding: 15px 20px;
 }
 
 
@@ -152,7 +152,29 @@ input[type='submit']:hover, button:hover {
 
 
 /* buttons */
-a, button {
+.start-button{
+    text-decoration: none;
+    background-color: var(--background-color);
+    color: var(--primary-color);
+    border-radius: var(--start-button-border-radius); 
+    padding: var(--start-button-padding);
+    font-size: var(--font-size-text);
+    cursor: pointer;
+
+    &:hover {
+        background-color: var(--primary-color);
+        color: var(--background-color);
+    }
+}
+    &:focus {
+        background-color: #64AAC7;
+    
+}
+
+/*deze moet nog aangepast worden naar een pijl naar rechts button, en in de custom properties
+ nog de juiste maten bij --button-border-radius en --button-padding daarna naam veranderen naar
+ --pijl-rechts-button-padding en --pijl-rechts-button-border-radius*/
+.pijl-rechts-button {
     text-decoration: none;
     background-color: var(--background-color);
     color: var(--primary-color);
