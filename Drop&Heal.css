@@ -32,9 +32,9 @@ body{
 
     --start-button-border-radius: 30.5px;
     --start-button-padding: 15px 20px;
+    --pijl-button-border-radius: 25px;
+    --pijl-button-padding: 5px 10px;
 }
-
-
 
 
 figure {
@@ -184,12 +184,12 @@ input[type='submit']:hover, button:hover {
 /*deze moet nog aangepast worden naar een pijl naar rechts button, en in de custom properties
  nog de juiste maten bij --button-border-radius en --button-padding daarna naam veranderen naar
  --pijl-rechts-button-padding en --pijl-rechts-button-border-radius*/
-.pijl-rechts-button {
+.pijl-button {
     text-decoration: none;
     background-color: var(--background-color);
     color: var(--primary-color);
-    border-radius: var(--button-border-radius); 
-    padding: var(--button-padding);
+    border-radius: var(--pijl-button-border-radius); 
+    padding: var(--pijl-button-padding);
     font-size: var(--font-size-text);
     cursor: pointer;
 
