@@ -181,9 +181,6 @@ input[type='submit']:hover, button:hover {
     
 }
 
-/*deze moet nog aangepast worden naar een pijl naar rechts button, en in de custom properties
- nog de juiste maten bij --button-border-radius en --button-padding daarna naam veranderen naar
- --pijl-rechts-button-padding en --pijl-rechts-button-border-radius*/
 .pijl-button {
     text-decoration: none;
     background-color: var(--background-color);
