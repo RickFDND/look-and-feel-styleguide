@@ -110,6 +110,16 @@ ol {
     color: var(--primary-color);
 }
 
+/* image rouwtaken*/
+.img-rouwtaken, img {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    width: 100%;
+    height: auto;
+ }
+ 
+
 /* Formulier elementen */
 
 .account-form {
