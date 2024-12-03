@@ -135,7 +135,7 @@ input[type='text'], input[type='password'], label{
     font-family: var(--font-family-text);
     background-color: var(--background-color);
     color: var(--primary-color);
-    border-radius: var(--button-border-radius);
+    border-radius: var(--start-button-border-radiusbutton-border-radius);
     border: 1px solid var(--primary-color); 
     padding: 8px 20px;
     font-size: 0,5em;
