@@ -162,7 +162,8 @@ input[type='submit']:hover, button:hover {
 
 
 /* buttons */
-.link-button {
+
+.link-button & a {
     text-decoration: none;
     background-color: var(--background-color);
     color: var(--primary-color);
