@@ -166,6 +166,10 @@ input[type='submit']:hover, button:hover {
 a { 
     text-decoration: none;
     color: var(--primary-color);
+
+    &:hover {
+        color: var(--background-color);
+    }
 }
 
 .link-button {
