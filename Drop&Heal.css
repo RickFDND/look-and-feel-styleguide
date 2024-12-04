@@ -130,7 +130,7 @@ ol {
 }
 
 input[type='text'], input[type='password'], label{
-    display: block;
+    display: flex;
     background-color: var(--background-color);
     color: var(--primary-color);
     border-color: var(--primary-color);
