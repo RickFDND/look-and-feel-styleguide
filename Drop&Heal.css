@@ -163,30 +163,29 @@ input[type='submit']:hover, button:hover {
 
 /* buttons */
 
-a { 
-    text-decoration: none;
-    color: var(--primary-color);
-
-    &:hover {
-        color: var(--background-color);
-    }
-}
-
-.link-button {
+a, .link-button { 
     text-decoration: none;
     background-color: var(--background-color);
     color: var(--primary-color);
+    border: 1px solid var(--primary-color);
     border-radius: var(--start-button-border-radius);
     padding: var(--start-button-padding);
     font-size: var(--font-size-text);
     cursor: pointer;
+
+    &:hover {
+        background-color: var(--primary-color);
+        color: var(--background-color);
+    }
+    
 }
 
 .start-button{
     text-decoration: none;
     background-color: var(--background-color);
     color: var(--primary-color);
-    border-radius: var(--start-button-border-radius); 
+    border: 1px solid var(--primary-color);
+    border-radius: var(--start-button-border-radius);
     padding: var(--start-button-padding);
     font-size: var(--font-size-text);
     cursor: pointer;
@@ -205,8 +204,9 @@ a {
     text-decoration: none;
     background-color: var(--background-color);
     color: var(--primary-color);
-    border-radius: var(--pijl-button-border-radius); 
-    padding: var(--pijl-button-padding);
+    border: 1px solid var(--primary-color);
+    border-radius: var(--start-button-border-radius);
+    padding: var(--start-button-padding);
     font-size: var(--font-size-text);
     cursor: pointer;
 
